@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/lukasaric1/FastFoodRix.git/static/css/main.ce92fa27.css",
+    "main.js": "/lukasaric1/FastFoodRix.git/static/js/main.53a3e6b7.js",
+    "static/js/488.44a21262.chunk.js": "/lukasaric1/FastFoodRix.git/static/js/488.44a21262.chunk.js",
+    "static/media/pizza.gif": "/lukasaric1/FastFoodRix.git/static/media/pizza.050297e96d5e403e9309.gif",
+    "static/media/tortilla.gif": "/lukasaric1/FastFoodRix.git/static/media/tortilla.c1b934d7178cceca8809.gif",
+    "static/media/sandwich.gif": "/lukasaric1/FastFoodRix.git/static/media/sandwich.6ff2935696eb5ca20752.gif",
+    "static/media/kebab.gif": "/lukasaric1/FastFoodRix.git/static/media/kebab.a3330d647be19448555e.gif",
+    "static/media/soda.gif": "/lukasaric1/FastFoodRix.git/static/media/soda.ff4a563d35b09f8e76b1.gif",
+    "static/media/pancerote.gif": "/lukasaric1/FastFoodRix.git/static/media/pancerote.89e17a236b9aac4f6dda.gif",
+    "static/media/burger.gif": "/lukasaric1/FastFoodRix.git/static/media/burger.542d9378b56f020b9f36.gif",
+    "static/media/FastFoodRix.jpeg": "/lukasaric1/FastFoodRix.git/static/media/FastFoodRix.4edcb15010a524bd9815.jpeg",
+    "static/media/marker.png": "/lukasaric1/FastFoodRix.git/static/media/marker.7672a97d6fded1111763.png",
+    "index.html": "/lukasaric1/FastFoodRix.git/index.html",
+    "main.ce92fa27.css.map": "/lukasaric1/FastFoodRix.git/static/css/main.ce92fa27.css.map",
+    "main.53a3e6b7.js.map": "/lukasaric1/FastFoodRix.git/static/js/main.53a3e6b7.js.map",
+    "488.44a21262.chunk.js.map": "/lukasaric1/FastFoodRix.git/static/js/488.44a21262.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce92fa27.css",
+    "static/js/main.53a3e6b7.js"
+  ]
+}
