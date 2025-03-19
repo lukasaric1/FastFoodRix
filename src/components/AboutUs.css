@@ -1,0 +1,188 @@
+.about-us-container {
+  background-color: #000000;
+  padding: 8.5rem; /* 5vw dodaje prilagodljiv unutrašnji razmak */
+  padding-left: 1vw;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap; /* Omogućava prelamanje kolona na manjim ekranima */
+  justify-content: space-around; /* Centriranje sadržaja */
+  width: 100%;
+  
+}
+
+/* Pojedinačne kolone */
+.about-us-column {
+  flex: 1;
+  min-width: 280px; /* Sprečava previše uske kolone na manjim ekranima */
+  max-width: 400px; /* Ograničava širinu kolona na većim ekranima */
+}
+
+/* Naslovi i paragrafi */
+.about-us-header h2,
+.about-us-column p {
+  font-size: 2vw; /* Dinamična veličina teksta */
+  margin-bottom: 15px;
+}
+
+/* Footer sekcija */
+.about-us-footer {
+  margin-top: 50px;
+  font-size: 1.5vw;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 10px 20px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Ikone društvenih mreža */
+.about-us-social-media-item {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centriranje */
+  gap: 15px;
+  font-size: 2vw;
+  margin-top: 15px;
+  font-family: "Lora", serif;
+}
+
+.created-by-container {
+  text-align: center;
+  font-size: 1vw;
+  position: relative;
+  padding: 5px 10px; /* Dodatni prostor oko teksta */
+  background-color: black;
+  margin-right: 5vw;
+}
+
+
+.about-us-wrapper {
+  min-height: 50vh; /* Osigurava da wrapper zauzima cijeli ekran */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black; /* Dodaj ovu liniju */
+}
+
+.created-by-text {
+  color: white;
+}
+
+.created-by-link {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.created-by-link:hover {
+  text-decoration: underline;
+}
+
+/* Responzivni dizajn za tablete i manje ekrane */
+@media (max-width: 1024px) {
+  .about-us-column {
+      flex: 1 1 45%; /* Omogućava da dve kolone stanu u jedan red */
+      max-width: none;
+  }
+  .about-us-header h2,
+  .about-us-column p {
+      font-size: 0.5vw;
+  }
+  .about-us-footer {
+      font-size: 0.5vw;
+  }
+  .about-us-social-media-item {
+      font-size: 0.5vw;
+  }
+
+  .created-by-container {
+    text-align: center;
+    font-size: 1.5vw;
+    position: relative;
+    padding: 5px 10px; /* Dodatni prostor oko teksta */
+    background-color: black;
+    margin-left: 7vw;
+  }
+  
+}
+
+/* Responzivni dizajn za mobilne uređaje */
+@media (max-width: 1440px) {
+  .about-us-container {
+      flex-direction: row; /* Prebacuje u jedan stupac */
+      padding: 6rem 3vw;
+  }
+  .about-us-column {
+      flex: 1 1 100%; /* Svaka kolona zauzima celu širinu */
+      padding: 10px;
+  }
+  .about-us-header h2,
+  .about-us-column p {
+      font-size: 2vw;
+  }
+  .about-us-footer {
+      font-size: 2vw;
+  }
+  .about-us-social-media-item {
+      font-size: 2vw;
+      margin-left: 5vw;
+  }
+
+  
+}
+
+/* Responzivni dizajn za mobilne uređaje */
+@media (max-width: 768px) {
+  .about-us-container {
+      flex-direction: column; /* Prebacuje u jedan stupac */
+      padding: 6rem 3vw;
+  }
+  .about-us-column {
+      flex: 1 1 100%; /* Svaka kolona zauzima celu širinu */
+      padding: 10px;
+  }
+  .about-us-header h2,
+  .about-us-column p {
+      font-size: 4vw;
+  }
+  .about-us-footer {
+      font-size: 3vw;
+  }
+  .about-us-social-media-item {
+      font-size: 3.5vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .about-us-container {
+      flex-direction: column; /* Prebacuje u jedan stupac */
+      padding: 6rem 3vw;
+  }
+  .about-us-column {
+      flex: 1 1 100%; /* Svaka kolona zauzima celu širinu */
+      padding: 10px;
+  }
+  .about-us-header h2,
+  .about-us-column p {
+      font-size: 4vw;
+  }
+  .about-us-footer {
+      font-size: 3vw;
+  }
+  .about-us-social-media-item {
+      font-size: 3.5vw;
+  }
+
+  .created-by-container {
+    text-align: center;
+    font-size: 2.5vw;
+    position: relative;
+    padding: 5px 10px; /* Dodatni prostor oko teksta */
+    background-color: black;
+  }
+}
