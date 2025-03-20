@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/FastFoodRix/static/css/main.ce92fa27.css",
-    "main.js": "/FastFoodRix/static/js/main.38027429.js",
-    "static/js/488.44a21262.chunk.js": "/FastFoodRix/static/js/488.44a21262.chunk.js",
-    "static/media/pizza.gif": "/FastFoodRix/static/media/pizza.050297e96d5e403e9309.gif",
-    "static/media/tortilla.gif": "/FastFoodRix/static/media/tortilla.c1b934d7178cceca8809.gif",
-    "static/media/sandwich.gif": "/FastFoodRix/static/media/sandwich.6ff2935696eb5ca20752.gif",
-    "static/media/kebab.gif": "/FastFoodRix/static/media/kebab.a3330d647be19448555e.gif",
-    "static/media/soda.gif": "/FastFoodRix/static/media/soda.ff4a563d35b09f8e76b1.gif",
-    "static/media/pancerote.gif": "/FastFoodRix/static/media/pancerote.89e17a236b9aac4f6dda.gif",
-    "static/media/burger.gif": "/FastFoodRix/static/media/burger.542d9378b56f020b9f36.gif",
-    "static/media/FastFoodRix.jpeg": "/FastFoodRix/static/media/FastFoodRix.4edcb15010a524bd9815.jpeg",
-    "static/media/marker.png": "/FastFoodRix/static/media/marker.7672a97d6fded1111763.png",
-    "index.html": "/FastFoodRix/index.html",
-    "main.ce92fa27.css.map": "/FastFoodRix/static/css/main.ce92fa27.css.map",
-    "main.38027429.js.map": "/FastFoodRix/static/js/main.38027429.js.map",
-    "488.44a21262.chunk.js.map": "/FastFoodRix/static/js/488.44a21262.chunk.js.map"
+    "main.css": "/static/css/main.ce92fa27.css",
+    "main.js": "/static/js/main.507332b1.js",
+    "static/js/488.44a21262.chunk.js": "/static/js/488.44a21262.chunk.js",
+    "static/media/pizza.gif": "/static/media/pizza.050297e96d5e403e9309.gif",
+    "static/media/tortilla.gif": "/static/media/tortilla.c1b934d7178cceca8809.gif",
+    "static/media/sandwich.gif": "/static/media/sandwich.6ff2935696eb5ca20752.gif",
+    "static/media/kebab.gif": "/static/media/kebab.a3330d647be19448555e.gif",
+    "static/media/soda.gif": "/static/media/soda.ff4a563d35b09f8e76b1.gif",
+    "static/media/pancerote.gif": "/static/media/pancerote.89e17a236b9aac4f6dda.gif",
+    "static/media/burger.gif": "/static/media/burger.542d9378b56f020b9f36.gif",
+    "static/media/FastFoodRix.jpeg": "/static/media/FastFoodRix.4edcb15010a524bd9815.jpeg",
+    "static/media/marker.png": "/static/media/marker.7672a97d6fded1111763.png",
+    "index.html": "/index.html",
+    "main.ce92fa27.css.map": "/static/css/main.ce92fa27.css.map",
+    "main.507332b1.js.map": "/static/js/main.507332b1.js.map",
+    "488.44a21262.chunk.js.map": "/static/js/488.44a21262.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce92fa27.css",
-    "static/js/main.38027429.js"
+    "static/js/main.507332b1.js"
   ]
 }
