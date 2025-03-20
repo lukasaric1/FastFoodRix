@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c0396b0.css",
+    "main.css": "/static/css/main.7b98d3ff.css",
     "main.js": "/static/js/main.4cdf2492.js",
     "static/js/488.44a21262.chunk.js": "/static/js/488.44a21262.chunk.js",
     "static/media/pizza.gif": "/static/media/pizza.050297e96d5e403e9309.gif",
@@ -13,12 +13,12 @@
     "static/media/FastFoodRix.jpeg": "/static/media/FastFoodRix.4edcb15010a524bd9815.jpeg",
     "static/media/marker.png": "/static/media/marker.7672a97d6fded1111763.png",
     "index.html": "/index.html",
-    "main.9c0396b0.css.map": "/static/css/main.9c0396b0.css.map",
+    "main.7b98d3ff.css.map": "/static/css/main.7b98d3ff.css.map",
     "main.4cdf2492.js.map": "/static/js/main.4cdf2492.js.map",
     "488.44a21262.chunk.js.map": "/static/js/488.44a21262.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c0396b0.css",
+    "static/css/main.7b98d3ff.css",
     "static/js/main.4cdf2492.js"
   ]
 }
