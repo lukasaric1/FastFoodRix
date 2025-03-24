@@ -84,6 +84,10 @@
 }
 
 /* Responzivni dizajn za tablete i manje ekrane */
+
+
+
+
 @media (max-width: 1024px) {
   .about-us-column {
       flex: 1 1 45%; /* Omogućava da dve kolone stanu u jedan red */
@@ -131,6 +135,15 @@
   .about-us-social-media-item {
       font-size: 2vw;
       margin-left: 5vw;
+  }
+
+  .created-by-container {
+    text-align: center;
+    font-size: 1.5vw;
+    position: relative;
+    padding: 5px 10px; /* Dodatni prostor oko teksta */
+    background-color: black;
+    margin-left: 7vw;
   }
 
   

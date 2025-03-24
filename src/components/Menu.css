@@ -77,7 +77,7 @@
 
     .image-row {
         flex-direction: row;
-        margin-left: 10vw;
+        margin-left: 9vw;
     }
 
     .image-row img {
@@ -92,36 +92,36 @@
     }
     .menu-info h4 {
         font-size: 2.2vw;
-        margin-left: 29vw;
+        margin-left: 21vw;
     }
     .menu-info h5 {
         font-size: 1.8vw;
-        margin-left: 29vw;
+        margin-left: 21vw;
         
     }
     .menu-info p {
         font-size: 1.6vw;
-        margin-left: 29vw;
+        margin-left: 21vw;
         
     }
 
     .noticeA h3 {
         margin-top: 12px;
-        margin-left: 45vw;
+        margin-left: 32vw;
         font-size: 50px;
         
     }
 
     .noticeB h3 {
         margin-top: 12px;
-        margin-left: 43vw;
+        margin-left: 30vw;
         font-size: 50px;
         
     }
     
     .freepiknotice p {
-        font-size: 30px;
-        margin-left: 81vw;
+        font-size: 15px;
+        margin-left: 83vw;
     }
 
 }
@@ -288,6 +288,58 @@
 }
 
 
+@media (max-width: 431px) {
+
+    .image-row {
+        flex-direction: row;
+        margin-left: 6vw;
+    }
+    
+    .image-row img {
+        width: 10vw;
+
+        min-height: 5vh;
+    }
+    .menu-info h2 {
+        font-size: 3.9vw;
+    }
+    .menu-info h4 {
+        font-size: 2vw;
+        margin-left: 19vw;
+    }
+    .menu-info h5 {
+        font-size: 2vw;
+        margin-left: 19vw;
+        
+    }
+    .menu-info p {
+        font-size: 2.5vw;
+        margin-left: 19vw;
+        
+    }
+
+    .noticeA h3 {
+        margin-top: 12px;
+        margin-left: 22vw;
+        font-size: 20px;
+        
+    }
+
+    .noticeB h3 {
+        margin-top: 12px;
+        margin-left: 20vw;
+        font-size: 20px;
+        
+    }
+    
+    .freepiknotice p {
+        margin-top: 10px;
+        font-size: 8px;
+        margin-left: 70vw;
+    }
+}
+
+
 @media (max-width: 390px) {
 
     .image-row {
@@ -305,29 +357,29 @@
     }
     .menu-info h4 {
         font-size: 2vw;
-        margin-left: 2vw;
+        margin-left: 9vw;
     }
     .menu-info h5 {
         font-size: 2vw;
-        margin-left: 0vw;
+        margin-left: 9vw;
         
     }
     .menu-info p {
         font-size: 2.5vw;
-        margin-left: 2vw;
+        margin-left: 9vw;
         
     }
 
     .noticeA h3 {
         margin-top: 12px;
-        margin-left: 2vw;
+        margin-left: 18vw;
         font-size: 20px;
         
     }
 
     .noticeB h3 {
         margin-top: 12px;
-        margin-left: 1vw;
+        margin-left: 13vw;
         font-size: 20px;
         
     }
@@ -335,50 +387,50 @@
     .freepiknotice p {
         margin-top: 10px;
         font-size: 7px;
-        margin-left: 65vw;
+        margin-left: 70vw;
     }
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .image-row {
         flex-direction: row;
-        margin-left: 1vw;
+        margin-left: 5vw;
     }
     
     .image-row img {
-        width: 5vw;
-        max-width: 10px;
+        width: 40vw;
+        max-width: 10vw;
         min-height: 5vh;
     }
     .menu-info h2 {
         font-size: 3.9vw;
     }
     .menu-info h4 {
-        font-size: 2vw;
-        margin-left: 2vw;
+        font-size: 3vw;
+        margin-left: 14vw;
     }
     .menu-info h5 {
-        font-size: 2vw;
-        margin-left: 0vw;
+        font-size: 2.3vw;
+        margin-left: 14vw;
         
     }
     .menu-info p {
         font-size: 2.5vw;
-        margin-left: 2vw;
+        margin-left: 14vw;
         
     }
 
     .noticeA h3 {
         margin-top: 12px;
-        margin-left: 2vw;
+        margin-left: 19vw;
         font-size: 20px;
         
     }
 
     .noticeB h3 {
         margin-top: 12px;
-        margin-left: 1vw;
+        margin-left: 14vw;
         font-size: 20px;
         
     }
@@ -386,7 +438,7 @@
     .freepiknotice p {
         margin-top: 10px;
         font-size: 7px;
-        margin-left: 65vw;
+        margin-left: 70vw;
     }
 }
 
