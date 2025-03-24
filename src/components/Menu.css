@@ -234,14 +234,16 @@
 }
 
 
+
+
 @media (max-width: 768px) {
+
 
     .image-row {
         flex-direction: row;
         margin-left: 1vw;
     }
     
-
     .image-row img {
         width: 25vw;
         max-width: 90px;
@@ -287,12 +289,114 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .image-row {
+        flex-direction: row;
+        margin-left: 5vw;
+    }
+    
+    .image-row img {
+        width: 11vw;
+        min-height: 6vh;
+    }
+
+    .menu-info h2 {
+        font-size: 3.5vw;
+    }
+
+    .menu-info h4 {
+        font-size: 2.2vw;
+        margin-left: 15vw;
+    }
+
+    .menu-info h5 {
+        font-size: 2.2vw;
+        margin-left: 15vw;
+    }
+
+    .menu-info p {
+        font-size: 2.3vw;
+        margin-left: 15vw;
+    }
+
+    .noticeA h3 {
+        margin-top: 14px;
+        margin-left: 18vw;
+        font-size: 22px;
+    }
+
+    .noticeB h3 {
+        margin-top: 14px;
+        margin-left: 18vw;
+        font-size: 22px;
+    }
+    
+    .freepiknotice p {
+        margin-top: 12px;
+        font-size: 9px;
+        margin-left: 65vw;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .image-row {
+        flex-direction: row;
+        margin-left: 6vw;
+    }
+    
+    .image-row img {
+        width: 10vw;
+
+        min-height: 5vh;
+    }
+    .menu-info h2 {
+        font-size: 3.9vw;
+    }
+    .menu-info h4 {
+        font-size: 2vw;
+        margin-left: 19vw;
+    }
+    .menu-info h5 {
+        font-size: 2vw;
+        margin-left: 19vw;
+        
+    }
+    .menu-info p {
+        font-size: 2.5vw;
+        margin-left: 19vw;
+        
+    }
+
+    .noticeA h3 {
+        margin-top: 12px;
+        margin-left: 22vw;
+        font-size: 20px;
+        
+    }
+
+    .noticeB h3 {
+        margin-top: 12px;
+        margin-left: 20vw;
+        font-size: 20px;
+        
+    }
+    
+    .freepiknotice p {
+        margin-top: 10px;
+        font-size: 8px;
+        margin-left: 70vw;
+    }
+}
+
 
 @media (max-width: 431px) {
 
     .image-row {
         flex-direction: row;
         margin-left: 6vw;
+        
     }
     
     .image-row img {
