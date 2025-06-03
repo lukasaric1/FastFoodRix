@@ -12,30 +12,21 @@
     position: fixed;
     top: 0;
     width: 100%;
-    height: 120px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: #222;
     color: white;
-    padding: 0 20px;
+    padding: 0 30px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     z-index: 1000;
+   
 }
 
-/* Logo */
-.fastfoodlogo {
-    height: 100px;
-    display: flex;
-    align-items: center;
-}
 
-.fastfoodlogo img {
-    height: 100%;
-    max-width: 100%;
-}
 
-/* Navigation */
+
 .app-bar-right {
     display: flex;
     align-items: center;
@@ -47,25 +38,13 @@
     text-decoration: none;   /* Maknuto podcrtavanje */
     color: white;          /* Linkovi su bijeli */
     transition: color 0.3s;
-    font-family: "Lora";
-    font-size: 25px;
+    font-size: 1.2rem;
 }
 
 .app-bar-right a:hover {
     color: #cd7115;
 }
 
-/* Contact Info */
-.contact-info {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    
-}
-
-.contact-info:hover {
-  color: #cd7115;
-}
 
 .contact-item {
     text-decoration: none;
@@ -73,20 +52,13 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 40px;
-    font-family: "Lora";
+    font-size: 1.5rem;
 }
 
 .contact-item:hover {
     color: #cd7115;
 }
 
-
-.social-icons {
-    display: flex;
-    gap: 15px;
-    
-}
 
 .social-media-item {
     text-decoration: none;  /* Maknuto podcrtavanje */
@@ -95,7 +67,11 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-family: "Lora";
+    font-size: 1.5rem;
+    svg{
+        height: 1.5rem;
+       
+    }
 }
 
 .social-media-item:hover {
@@ -113,228 +89,26 @@
 
 /* RESPONSIVE DESIGN */
 
-/* Tablets */
-
-@media (max-width: 1440px) {
-
-    .social-media-item {
-        text-decoration: none;  /* Maknuto podcrtavanje */
-        color: white;        /* Ikone ostaju bijele */
-        font-size: 30px;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: "Lora";
-    }
-
-    .app-bar-right {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-       
-    }
-
-    .app-bar-right a {
-        text-decoration: none;   /* Maknuto podcrtavanje */
-        color: white;          /* Linkovi su bijeli */
-        transition: color 0.3s;
-        font-family: "Lora";
-        font-size: 45px;
-    }
-
+@media (max-width: 700px) {
 
     .app-bar {
-        height: 100px;
-        padding: 0 15px;
-    }
-    .app-bar-right {
-        gap: 15px;
-    }
-    .app-bar-right a {
-        font-size: 18px;
-    }
-    .contact-item {
-        font-size: 30px;
-        gap: 5px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .app-bar {
-        height: 100px;
-        padding: 0 15px;
-        max-width: 1024px;
-    }
-    .app-bar-right {
-        gap: 15px;
-    }
-    .app-bar-right a {
-        font-size: 18px;
-    }
-    .contact-item {
-        font-size: 35px;
-        gap: 5px;
-    }
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-    .app-bar {
-        height: 10vh;
         padding: 0 10px;
-        max-width: 768px;
+        height: 50px;
+        font-size: 1.2rem;
     }
-
-    .app-bar-right,
-    .contact-info {
-        display: none;
-       
-    }
-
-    .contact-item {
-      font-size: 18px;
-    }
-
-    .social-media-item {
-      font-size: 18px;
-    }
-
-    /* Mobile Menu Button */
-    .hamburger {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 30px;
-        height: 25px;
-        cursor: pointer;
-    }
-
-    .hamburger div {
-        width: 100%;
-        height: 4px;
-        background: white;
-        border-radius: 5px;
-    }
-}
-
-
-@media (max-width: 426px) {
     
-    .app-bar {
-        max-width: 425px;
-        height: 10vh;
-        padding: 0 10px;
-    }
-
-    .app-bar-right,
-    .contact-info {
+    
+    .app-bar-right {
         display: none;
-       
-    }
-
-    .contact-item {
-      font-size: 18px;
     }
 
     .social-media-item {
-      font-size: 18px;
+        font-size: 1rem;
     }
 
-    /* Mobile Menu Button */
-    .hamburger {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 30px;
-        height: 25px;
-        cursor: pointer;
-    }
-
-    .hamburger div {
-        width: 100%;
-        height: 4px;
-        background: white;
-        border-radius: 5px;
-    }
-}
-
-
-@media (max-width: 376px) {
-
-    .app-bar {
-        max-width: 375px;
-        height: 10vh;
+    .contact-item {
         
+        font-size: 1rem;
     }
 
-    .app-bar-right,
-    .contact-info {
-        display: none;
-       
-    }
-
-    .contact-item {
-      font-size: 18px;
-    }
-
-    .social-media-item {
-      font-size: 18px;
-    }
-
-    /* Mobile Menu Button */
-    .hamburger {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 30px;
-        height: 25px;
-        cursor: pointer;
-    }
-
-    .hamburger div {
-        width: 100%;
-        height: 4px;
-        background: white;
-        border-radius: 5px;
-    }
-}
-
-
-@media (max-width: 320px) {
-    .app-bar {
-        max-width: 320px;
-        height: 10vh;
-        
-    }
-
-    .app-bar-right,
-    .contact-info {
-        display: none;
-       
-    }
-
-    .contact-item {
-      font-size: 15px;
-    }
-
-    .social-media-item {
-      font-size: 15px;
-    }
-
-    /* Mobile Menu Button */
-    .hamburger {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 30px;
-        height: 25px;
-        cursor: pointer;
-    }
-
-    .hamburger div {
-        width: 100%;
-        height: 4px;
-        background: white;
-        border-radius: 5px;
-    }
 }

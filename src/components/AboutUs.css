@@ -1,35 +1,33 @@
 .about-us-container {
   background-color: #000000;
-  padding: 8.5rem; /* 5vw dodaje prilagodljiv unutrašnji razmak */
-  padding-left: 1vw;
+  padding: 8rem 2rem;
   font-family: Arial, sans-serif;
   text-align: center;
   color: white;
   display: flex;
-  flex-wrap: wrap; /* Omogućava prelamanje kolona na manjim ekranima */
-  justify-content: space-around; /* Centriranje sadržaja */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  box-sizing: border-box;
   width: 100%;
-  
 }
 
-/* Pojedinačne kolone */
 .about-us-column {
-  flex: 1;
-  min-width: 280px; /* Sprečava previše uske kolone na manjim ekranima */
-  max-width: 400px; /* Ograničava širinu kolona na većim ekranima */
+  flex: 1 1 300px;
+  max-width: 400px;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
-/* Naslovi i paragrafi */
 .about-us-header h2,
 .about-us-column p {
-  font-size: 2vw; /* Dinamična veličina teksta */
+  font-size: 1.8rem;
   margin-bottom: 15px;
 }
 
-/* Footer sekcija */
 .about-us-footer {
   margin-top: 50px;
-  font-size: 1.5vw;
+  font-size: 1.2rem;
   color: #ffffff;
   background-color: #000000;
   padding: 10px 20px;
@@ -38,35 +36,32 @@
   display: inline-block;
 }
 
-/* Ikone društvenih mreža */
 .about-us-social-media-item {
   text-decoration: none;
   color: #fff;
   display: flex;
   align-items: center;
-  justify-content: center; /* Centriranje */
+  justify-content: center;
   gap: 15px;
-  font-size: 2vw;
+  font-size: 1.5rem;
   margin-top: 15px;
   font-family: "Lora", serif;
 }
 
-.created-by-container {
-  text-align: center;
-  font-size: 1vw;
-  position: relative;
-  padding: 5px 10px; /* Dodatni prostor oko teksta */
-  background-color: black;
-  margin-right: 5vw;
-}
-
-
 .about-us-wrapper {
-  min-height: 50vh; /* Osigurava da wrapper zauzima cijeli ekran */
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: black; /* Dodaj ovu liniju */
+  background-color: black;
+}
+
+.created-by-container {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  background-color: black;
+  margin-top: 2rem;
 }
 
 .created-by-text {
@@ -83,119 +78,54 @@
   text-decoration: underline;
 }
 
-/* Responzivni dizajn za tablete i manje ekrane */
+/* ========== RESPONSIVE STILOVI ========== */
 
-
-
-
-@media (max-width: 1024px) {
-  .about-us-column {
-      flex: 1 1 45%; /* Omogućava da dve kolone stanu u jedan red */
-      max-width: none;
-  }
-  .about-us-header h2,
-  .about-us-column p {
-      font-size: 0.5vw;
-  }
-  .about-us-footer {
-      font-size: 0.5vw;
-  }
-  .about-us-social-media-item {
-      font-size: 0.5vw;
-  }
-
-  .created-by-container {
-    text-align: center;
-    font-size: 1.5vw;
-    position: relative;
-    padding: 5px 10px; /* Dodatni prostor oko teksta */
-    background-color: black;
-    margin-left: 7vw;
-  }
-  
-}
-
-/* Responzivni dizajn za mobilne uređaje */
-@media (max-width: 1440px) {
-  .about-us-container {
-      flex-direction: row; /* Prebacuje u jedan stupac */
-      padding: 6rem 3vw;
-  }
-  .about-us-column {
-      flex: 1 1 100%; /* Svaka kolona zauzima celu širinu */
-      padding: 10px;
-  }
-  .about-us-header h2,
-  .about-us-column p {
-      font-size: 2vw;
-  }
-  .about-us-footer {
-      font-size: 2vw;
-  }
-  .about-us-social-media-item {
-      font-size: 2vw;
-      margin-left: 5vw;
-  }
-
-  .created-by-container {
-    text-align: center;
-    font-size: 1.5vw;
-    position: relative;
-    padding: 5px 10px; /* Dodatni prostor oko teksta */
-    background-color: black;
-    margin-left: 7vw;
-  }
-
-  
-}
-
-/* Responzivni dizajn za mobilne uređaje */
 @media (max-width: 768px) {
   .about-us-container {
-      flex-direction: column; /* Prebacuje u jedan stupac */
-      padding: 6rem 3vw;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    align-items: center;
   }
-  .about-us-column {
-      flex: 1 1 100%; /* Svaka kolona zauzima celu širinu */
-      padding: 10px;
-  }
-  .about-us-header h2,
-  .about-us-column p {
-      font-size: 4vw;
-  }
-  .about-us-footer {
-      font-size: 3vw;
-  }
-  .about-us-social-media-item {
-      font-size: 3.5vw;
-  }
-}
 
-@media (max-width: 425px) {
-  .about-us-container {
-      flex-direction: column; /* Prebacuje u jedan stupac */
-      padding: 6rem 3vw;
-  }
   .about-us-column {
-      flex: 1 1 100%; /* Svaka kolona zauzima celu širinu */
-      padding: 10px;
+    width: 100%;
+    max-width: 90%;
+    padding: 1rem;
   }
+
   .about-us-header h2,
   .about-us-column p {
-      font-size: 4vw;
+    font-size: 1.5rem;
   }
+
   .about-us-footer {
-      font-size: 3vw;
+    font-size: 1rem;
   }
+
   .about-us-social-media-item {
-      font-size: 3.5vw;
+    font-size: 1.2rem;
   }
 
   .created-by-container {
-    text-align: center;
-    font-size: 2.5vw;
-    position: relative;
-    padding: 5px 10px; /* Dodatni prostor oko teksta */
-    background-color: black;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .about-us-header h2,
+  .about-us-column p {
+    font-size: 1.3rem;
+  }
+
+  .about-us-footer {
+    font-size: 0.95rem;
+  }
+
+  .about-us-social-media-item {
+    font-size: 1.1rem;
+  }
+
+  .created-by-container {
+    font-size: 0.7rem;
   }
 }

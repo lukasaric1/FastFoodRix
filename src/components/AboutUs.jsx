@@ -8,7 +8,7 @@ const AboutUs = () => {
       <div className="about-us-container">
         {/* Prvi stupac */}
         <div className="about-us-column">
-          <p>Fast food "Rix"</p>
+          <p>FAST FOOD "RIX"</p>
           <h2>v.l. Hrvoje Rikalo</h2>
           <h2>Fiskovićeva ul. 12, 20250, Orebić</h2>
           <h2>Mob:  091/222-2757</h2>
@@ -16,14 +16,14 @@ const AboutUs = () => {
 
         {/* Drugi stupac */}
         <div className="about-us-column">
-          <p>Dostava</p>
+          <p>DOSTAVA:</p>
           <h2>PON - SUB od 12 do 22 sata</h2>
           <h2>NED: Zatvoreno</h2>
         </div>
 
         {/* Treći stupac */}
         <div className="about-us-column">
-          <p>Radno vrijeme</p>
+          <p>RADNO VRIJEME:</p>
           <h2>Ponedjeljak - subota od 12 do 22 sata</h2>
           <h2>Nedjeljom i praznikom zatvoreno</h2>
         </div>
