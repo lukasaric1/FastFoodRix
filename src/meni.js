@@ -3,13 +3,13 @@ export const meni = [
     name: "SENDVIČI / SANDWICHES",
     id: "sandwiches",
     article: [
-      { name: "Šunka,sir / Ham, Cheese", price: 6.0 },
-      { name: "Pršut,sir / Prosciutto, Cheese", price: 7.0 },
-      { name: "Kulen,sir / Kulen, Cheese", price: 7.0 },
+      { name: "Šunka,sir / Ham, Cheese", price: 6.5 },
+      { name: "Pršut,sir / Prosciutto, Cheese", price: 7.5 },
+      { name: "Kulen,sir / Kulen, Cheese", price: 7.5 },
       { name: "Tuna,sir / Tuna, Cheese", price: 7.5 },
       {
         name: "Vegeterijanski,sir / Vegetarian, Cheese",
-        price: 7.0,
+        price: 8.0,
         contains: "Povrće s grilla, sir / Grilled vegetables, cheese",
       },
     ],
@@ -20,44 +20,44 @@ export const meni = [
     article: [
       {
         name: "Calamari classic",
-        price: 15.0,
+        price: 15.5,
         contains:
           "Lignje na kolutiće, frigani krumpiri, domaća lepinja, tartar / Squid rings, pommes, homemade bun, tartar sauce",
       },
       {
         name: "Calamari burger",
-        price: 10.0,
+        price: 10.5,
         contains:
           "Lignje na kolutiće, tartar, rajčica, zelena salata / Squid rings, tartar sauce, tomato, lettuce",
       },
       {
         name: "Hamburger",
-        price: 7.0,
+        price: 8.0,
         contains: "Mljeveno meso / Minced meat",
       },
       {
         name: "Cheeseburger",
-        price: 7.5,
+        price: 8.5,
         contains: "Mljeveno meso, sir / Minced meat, cheese",
       },
       {
         name: "Chickenburger",
-        price: 7.5,
+        price: 8.5,
         contains: "Piletina, sir / Chicken, cheese",
       },
       {
         name: "Cornflex Chicken Burger",
-        price: 8.5,
+        price: 9.5,
         contains: "Piletina, sir, slanina / Chicken, cheese, bacon",
       },
       {
         name: "Crispy Bacon Chickenburger",
-        price: 8.5,
+        price: 9.5,
         contains: "Piletina, sir, slanina / Chicken, cheese, bacon",
       },
       {
         name: "Pobre burger",
-        price: 9.5,
+        price: 10.5,
         contains:
           "Mljeveno meso, sir, kajmak, pršut / Minced meat, cheese, cream cheese, prosciutto",
       },
@@ -69,7 +69,7 @@ export const meni = [
       },
       {
         name: "RIX burger",
-        price: 11.5,
+        price: 12.5,
         contains:
           "Dupli burger, sir, slanina / Double burger meat, cheese, bacon",
       },
@@ -81,17 +81,17 @@ export const meni = [
     article: [
       {
         name: "Ćevapi - 5 kom/pcs",
-        price: 6.5,
+        price: 7.5,
         contains: "Mljeveno meso / Minced meat",
       },
       {
         name: "Ćevapi - 7 kom/pcs",
-        price: 8.5,
+        price: 9.5,
         contains: "Mljeveno meso / Minced meat",
       },
       {
         name: "Ćevapi - 10 kom/pcs",
-        price: 11.5,
+        price: 12.5,
         contains: "Mljeveno meso / Minced meat",
       },
     ],
@@ -102,13 +102,13 @@ export const meni = [
     article: [
       {
         name: "Piletina, sir / Chicken, cheese",
-        price: 7.0,
+        price: 7.5,
         contains:
           "Tortilja, piletina, povrće, sir, grčki jogurt / Tortilla, chicken, vegetables, cheese, greek yogurt",
       },
       {
         name: "Tuna, sir / Tuna, cheese",
-        price: 7.0,
+        price: 7.5,
         contains:
           "Tortilja, tuna, povrće, sir, grčki jogurt / Tortilla, tuna, vegetables, cheese, greek yogurt",
       },
@@ -126,62 +126,62 @@ export const meni = [
     article: [
       {
         name: "Margherita",
-        price: 8.5,
+        price: 9.0,
         contains:
           "Umak od rajčice, sir, origano, maslina / Tomato sauce, cheese, oregano, olive",
       },
       {
         name: "Funghi",
-        price: 9.0,
+        price: 9.5,
         contains:
           "Umak od rajčice, sir, gljive, origano, masline / Tomato sauce, cheese, mushrooms, oregano, olive",
       },
       { name: "Nutella", price: 8.5 },
       {
         name: "Capricciosa",
-        price: 9.5,
+        price: 10.0,
         contains:
           "Umak od rajčice, šunka, sir, origano, maslina, gljive / Tomato sauce, ham, cheese, oregano, olive, mushrooms",
       },
       {
         name: "Prosciutto",
-        price: 10.0,
+        price: 11.0,
         contains:
           "Umak od rajčice, sir, pršut, gljive, origano, maslina / Tomato sauce, cheese, prosciutto, oregano, olive, mushrooms",
       },
       {
         name: "Tuna",
-        price: 10.5,
+        price: 11.0,
         contains:
           "Umak od rajčice, tuna, sir, origano, maslina / Tomato sauce, tuna, cheese, oregano, olive",
       },
       {
         name: "Vegeteriana",
-        price: 10.0,
+        price: 11.0,
         contains:
           "Umak od rajčice, povrće, sir, origano, masline, gljive / Tomato sauce, vegetables, cheese, olive, mushrooms",
       },
       {
         name: "Piletina pizza",
-        price: 10.5,
+        price: 11.0,
         contains:
           "Vrhnje za kuhanje, piletina, sir, gljive, origano, maslina / Cooking cream, chicken, cheese, mushrooms, oregano, olive",
       },
       {
         name: "Quattro formaggi",
-        price: 10.5,
+        price: 11.0,
         contains:
           "Umak od rajčice, 4 vrste sira, origano, maslina / Tomato sauce, 4 types of cheese, oregano, olive",
       },
       {
         name: "More",
-        price: 10.5,
+        price: 12.0,
         contains:
           "Umak od rajčice, sir, kozice, inćuni, kapari, origano, masline / Tomato sauce, cheese, shrimps, anchovies, capers, oregano, olive",
       },
       {
         name: "RIX pizza",
-        price: 11.5,
+        price: 12.0,
         contains:
           "Umak od rajčice, sir, kulen, slanina, feferoni, gljive, origano, maslina / Tomato sauce, cheese, kulen, bacon, hot peppers, mushrooms, oregano, olive",
       },
@@ -193,13 +193,13 @@ export const meni = [
     article: [
       {
         name: "Pancerota šunka, sir, gljive",
-        price: 9.5,
+        price: 10.0,
         contains:
           "Umak od rajčice, šunka, sir, gljive / Tomato sauce, ham, cheese, mushrooms",
       },
       {
         name: "Pancerota piletina",
-        price: 10.5,
+        price: 11.0,
         contains:
           "Vrhnje za kuhanje, piletina, gljive, sir / Cooking cream, chicken, mushrooms, cheese",
       },
@@ -212,19 +212,19 @@ export const meni = [
     article: [
       {
         name: "Kebab u domaćoj lepinji / Kebab in homemade bun",
-        price: 8.5,
+        price: 9.0,
         contains:
           "Kebab, povrće, blagi ili ljuti umak / Kebab, vegetables, mild or hot sauce",
       },
       {
         name: "Tortilja Kebab",
-        price: 7.5,
+        price: 8.0,
         contains:
           "Kebab, sir, povrće, blagi ili ljuti umak, piletina, gljive / Kebab, cheese, vegetables, mild or hot sauce, chicken, mushrooms",
       },
       {
         name: "Pizza Kebab",
-        price: 11.5,
+        price: 12.0,
         contains:
           "Umak od rajčice ili vrhnje za kuhanje, sir, kebab, gljive / Tomato sauce or Cooking cream, cheese, kebab, mushrooms",
       },
