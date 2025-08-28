@@ -34,11 +34,11 @@ const AboutUs = () => {
         <p>
           <span className="created-by-text">Created by </span>
           <a
-            href="https://www.linkedin.com/in/luka-%C5%A1ari%C4%87-7746b9261/"
+            href="https://www.sidrona.com/"
            
             className="created-by-link"
           >
-            ALPHA SOFTWARE
+            SIDRONA
           </a>
         </p>
       </div>
