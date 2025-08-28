@@ -62,12 +62,6 @@ export const meni = [
           "Mljeveno meso, sir, kajmak, pršut / Minced meat, cheese, cream cheese, prosciutto",
       },
       {
-        name: "Pulled pork",
-        price: 10.0,
-        contains:
-          "Trgana svinjetina, blagi umak, povrće / Pulled pork, mild sauce, vegetables",
-      },
-      {
         name: "RIX burger",
         price: 12.5,
         contains:
